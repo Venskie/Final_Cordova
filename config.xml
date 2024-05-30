@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.example.ervin" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>MyApp</name>
+    <description>Sample Apache Cordova App</description>
+    <author email="dev@cordova.apache.org" href="https://cordova.apache.org">
+        Apache Cordova Team
+    </author>
+    <content src="index.html" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+
+<platform name="android">
+<allow-intent href="market:*" />
+<icon density="mdpi" src="res/image/MDPI.png" />
+<icon density="hdpi" src="res/image/HDPI.png" />
+<icon density="xhdpi" src="res/image/XHDPI.png" />
+<icon density="xxhdpi" src="res/image/XXHDPI.png" />
+<icon density="xxxhdpi" src="res/image/XXXHDPI.png" />
+
+    <preference name="AndroidWindowSplashScreenAnimatedIcon" value="res/image/LOGO.png" />       <!-- Name of the splash screen image file without extension -->
+    <preference name="SplashScreenDelay" value="3000" />         <!-- Delay in milliseconds before hiding the splash screen -->
+    <preference name="AutoHideSplashScreen" value="true" />      <!-- Automatically hide the splash screen when app is ready -->
+    <preference name="FadeSplashScreenDuration" value="500" />   <!-- Duration of fade out animation for the splash screen -->
+    <preference name="SplashShowOnlyFirstTime" value="false" />
+    <preference name="AndroidWindowSplashScreenBackground" value="#003056" />
+
+</platform>
+</widget>
+
